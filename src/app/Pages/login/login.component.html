@@ -1,0 +1,18 @@
+<section class="bg-pale-green h-screen w-screen">
+  <form [formGroup]="loginForm">
+
+      <ion-item>
+        <ion-label position="floating">Username</ion-label>
+        <ion-input formControlName="username"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Password</ion-label>
+        <ion-input type="password" formControlName="password"></ion-input>
+      </ion-item>
+      <ion-label>
+
+        <input type="radio" formControlName="rememberMe">
+        <span>Remember Me</span>
+      </ion-label>
+  </form>
+</section>
